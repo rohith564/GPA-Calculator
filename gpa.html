@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GPA calculator</title>
+        <link rel="stylesheet" href="style.css">
+
+
+        
+    </head>
+
+    
+    <body style="text-align: center;">
+        <h1>GPA CALCULATOR</h1>
+        
+
+    <form action="post">
+        <nav>
+            
+            <a href="gpa.html"><input type="button" value="GPA" id="title1"></a>
+            <a href="cgpa.html"><input type="button" value="CGPA" id="title2"></a>
+        </nav>
+        <br>
+        <h2 style="display: inline;">Regulation:</h2>
+        <select name="regulation" id="reg" placeholder="select Regulation">
+            <option value=" ">Select Your Regulation</option>
+            <option value="2025">2025</option>
+            <option value="2021">2021</option>
+            <option value="2017">2017</option>
+        </select>
+
+        <br>
+        
+        <h2 style="display: inline;">Department:</h2>
+        <select name="department" id="dept" placeholder="select Department">
+            <option value=" ">Select Your Department</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="MECH">MECH</option>
+            <option value="EEE">EEE</option>
+        </select>
+        <br>
+        <br>
+        <input type="file" name="pic" id="pic">
+        <br>
+        <input type="button" value="Calculate GPA" id="gpa">
+    </form>
+    </body>
+</html>
